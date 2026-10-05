@@ -1,6 +1,6 @@
 # Web CV
 
-Currículum vitae en formato web: una página con perfil, sección "About" y experiencia laboral con portfolio de imágenes. Es responsive (mobile-first) y está hecha con HTML y CSS, sin frameworks ni dependencias.
+Currículum vitae en formato web con perfil, experiencia, publicaciones, charlas, proyectos, formación y contacto. Es responsive (mobile-first) y está hecha con HTML y CSS, sin frameworks ni dependencias.
 
 ## Diseño
 
