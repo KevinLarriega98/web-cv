@@ -46,8 +46,8 @@ web-cv/
 ### CSS
 - **Nombres de clase con [BEM](https://getbem.com/):** `bloque__elemento--modificador`.
   ```html
-  <article class="work-experience">
-    <h3 class="work-experience__title">...</h3>
+  <article class="cv-entry">
+    <h3 class="cv-entry__title">...</h3>
   </article>
   ```
   Los elementos no se encadenan (`profile__name`, no `profile__data__name`) y los selectores son de una sola clase, para que todos tengan la misma especificidad.

@@ -156,7 +156,6 @@ body {
   margin-top: 0.5rem;
 }
 
-.work-experience,
 .cv-entry {
   display: flex;
   flex-direction: row;
@@ -164,25 +163,21 @@ body {
   margin-top: 1rem;
 }
 
-.work-experience__date,
 .cv-entry__date {
   color: var(--color-text-meta);
   flex: 0 0 5.625rem;
 }
 
-.work-experience__details,
 .cv-entry__content {
   flex: 1;
   min-width: 0;
 }
 
-.work-experience__title,
 .cv-entry__title {
   color: var(--color-text-heading);
   overflow-wrap: break-word;
 }
 
-.work-experience__location,
 .cv-entry__description {
   color: var(--color-text-body);
 }
@@ -261,7 +256,6 @@ body {
 }
 
 .section__title,
-.work-experience__title,
 .cv-entry__title,
 .article-card__title,
 .contact-list__link {
@@ -281,13 +275,11 @@ body {
     flex-direction: row;
   }
 
-  .work-experience,
   .cv-entry,
   .contact-list__item {
     gap: 1.5rem;
   }
 
-  .work-experience__date,
   .cv-entry__date,
   .contact-list__platform {
     flex-basis: 7rem;
