@@ -194,10 +194,6 @@ body {
   border-radius: 8px;
 }
 
-.cv-entry__title--underlined {
-  text-decoration: none;
-}
-
 .article-card {
   display: flex;
   flex-direction: column;
@@ -250,9 +246,16 @@ body {
   color: var(--color-text-meta);
 }
 
+.cv-entry__link,
 .contact-list__link {
   color: var(--color-text-heading);
   text-decoration: none;
+}
+
+.cv-entry__link:hover,
+.contact-list__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .section__title,
@@ -301,8 +304,4 @@ body {
     display: inline;
   }
 
-  .cv-entry__title--underlined {
-    text-decoration: underline;
-    text-underline-offset: 0.15em;
-  }
 }
